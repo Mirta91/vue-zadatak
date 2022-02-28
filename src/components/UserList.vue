@@ -7,9 +7,9 @@
          - tablica mora sadržavati sljedeće stupace: avatar, ime, država, opis
          - slika u avataru treba biti dimenzija 50x50px
          - tablica treba biti stilizirana (po izboru odabrati boje, razmake, veličine itd.)
-         - hendlati polja u tablici koja imaju puno teksta na način da se prikazuje uredno
-         - ograničiti broj korisnika u tablici na 8 usera
-         - * dodatni bodovi za korištenje tailwinda u stiliziranju tablice
+         - hendlati polja u tablici koja imaju puno teksta na način da se prikazuju uredno i da se ništa ne raspada (npr za „opis“)
+         - ograničiti broj korisnika u tablici na 6 usera
+         - * dodatni bodovi za korištenje tailwinda (https://tailwindcss.com/) kod kreiranja stila
      
        / AVATAR       / IME            / DRŽAVA       / OPIS
        / slika.jpg    / Marko Markić   / Maroko       / Lorem ipsum dolor sit amet...
@@ -30,8 +30,7 @@ export default {
     return {
       users: [],
     };
-  }
-  //dohvati podatke sa https://api.infosit-zadatak.tk/api/entity kod učitavanja modula i dodaj te podatke u varijablu users
+  },
 }
 </script>
 

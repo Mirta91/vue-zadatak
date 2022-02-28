@@ -8,7 +8,7 @@ import UserList from './components/UserList.vue'
 
 <template>
 <div>
-  <Heading title="Vue Test App"/>
+  <Heading title="Vue Zadatak"/>
   <UserList />
 </div>
 </template>
