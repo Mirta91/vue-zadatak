@@ -188,17 +188,6 @@ export default {
         this.countrySort = "Asc";
       }
     },
-    getWord(desc) {
-      if (this.showAll) return desc;
-
-      let value = desc;
-      let length = 30;
-      if (value.length <= length) {
-        return value;
-      } else {
-        return value.substring(0, length) + "...";
-      }
-    },
   },
 };
 </script>
