@@ -7,3 +7,4 @@ import './assets/css/main.scss'
 const app = createApp(App)
 app.use(VueAxios, axios)
 app.mount('#app')
+
